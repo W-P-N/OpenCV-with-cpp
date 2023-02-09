@@ -7,7 +7,7 @@
 
 void  main()
 {
-	std::string path = "Resources/test.png";
+	std::string path = "Your image path";
 	cv::Mat img = cv::imread(path);
 
 	cv::Mat img_resize, img_crop;
