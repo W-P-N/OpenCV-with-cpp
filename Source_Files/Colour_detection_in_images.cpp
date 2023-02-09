@@ -7,7 +7,7 @@
 
 void main()
 {
-	std::string path = "Resources/lambo.png";
+	std::string path = "Your image path";
 	cv::Mat img = cv::imread(path), imgHSV, imgMask;
 
 	cv::cvtColor(img, imgHSV, cv::COLOR_BGR2HSV);  // Converts image from one colour space to other. Here we are converting to HSV colour space.
