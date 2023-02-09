@@ -5,7 +5,7 @@
 
 void main()
 {
-	std::string path = "Resources/test.png";
+	std::string path = "Your Image Path";
 	cv::Mat img = cv::imread(path);  // Reading image.
 
 	cv::Mat img_grey, blur_img, canny_img, dialated_img, eroded_img;
