@@ -10,7 +10,7 @@ float h = 350, w = 250;
 
 void main()
 {
-	std::string path = "Resources/cards.jpg";  // Go to paint and get the edge pixel points.
+	std::string path = "Your image path";  // Go to paint and get the edge pixel points.
 
 	cv::Mat img = cv::imread(path);
 
