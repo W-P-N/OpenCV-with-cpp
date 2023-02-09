@@ -11,7 +11,7 @@ int main()
 	cv::Mat img = cv::imread(path);
 
 	cv::CascadeClassifier faceCascade;
-	faceCascade.load("Resources/haarcascade_frontalface_default.xml");
+	faceCascade.load("haarcascade_frontalface_default.xml");
 
 	std::vector<cv::Rect> faces;
 	faceCascade.detectMultiScale(img, faces, 1.1, 10);
