@@ -109,7 +109,7 @@ cv::Mat getWarp(cv::Mat& imOriginal, std::vector<cv::Point>& docPts, float& w, f
 int main()
 { 
 	float w = 420, h = 596;
-	std::string path = "Resources/paper.jpg";
+	std::string path = "Your image path";
 	cv::Mat imageOriginal = cv::imread(path), imgWarp, imgCrop;
 
 	cv::resize(imageOriginal, imageOriginal, cv::Size(), 0.5, 0.5);
