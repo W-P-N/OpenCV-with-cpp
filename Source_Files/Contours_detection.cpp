@@ -66,7 +66,7 @@ void get_contors(cv::Mat imgDil, cv::Mat imgDraw)
 
 int main()
 {
-	std::string path = "Resources/shapes.png";
+	std::string path = "Your image path";
 	cv::Mat img = cv::imread(path);
 
 	// To detect the edges we first need to convert the image to dialated form to amplify the edges of the image - Preprocessing.
