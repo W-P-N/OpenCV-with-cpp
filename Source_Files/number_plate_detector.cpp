@@ -10,7 +10,7 @@ int main()
 	cv::Mat img;
 
 	cv::CascadeClassifier plateCascade;
-	plateCascade.load("Resources/haarcascade_russian_plate_number.xml");
+	plateCascade.load("haarcascade_russian_plate_number.xml");
 
 	std::vector<cv::Rect> plates;
 	
