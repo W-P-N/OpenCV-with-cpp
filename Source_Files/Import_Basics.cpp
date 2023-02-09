@@ -7,7 +7,7 @@
 // Importing images
 //int main()
 //{
-//	std::string path = "Resources/test.png";
+//	std::string path = "Your image path";
 //	cv::Mat image = cv::imread(path);  // Matrix dataype that handles all the images.
 //	cv::imshow("Image", image);  // Show image.
 //	cv::waitKey(0);  // Infinite delay.
@@ -21,7 +21,7 @@
 //{
 //	// Video is a series of images -> use while loop to call image.
 //		
-//	std::string path = "Resources/test_video.mp4";  // Path to video file.
+//	std::string path = "Your image path";  // Path to video file.
 //
 //	cv::VideoCapture cap(path);  // Creating object to capture video.
 //	cv::Mat image;  // Declaring object outside loop... obviously.
